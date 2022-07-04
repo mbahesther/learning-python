@@ -23,5 +23,6 @@ for x in (thisset):
     print(x)
 
  # to check if a item is present
-    myset= {"pot", "cup", "ice"}
-   print("ice" in myset)
+    mysett= {"fish", "meat", "ice"}
+    #print("ice" in mysett)
+
