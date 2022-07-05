@@ -48,3 +48,22 @@ car = {
 }
 if "model" in car:
     print("yes, 'model' is one of keys in car dictionary ")
+
+#You can change the value of a specific item by referring to its key name:
+thiscar = {
+    "brand": "toyota",
+    "model": "camry",
+    "year" : "2010"
+}
+thiscar["year"] = 2023
+print(thiscar)
+
+#Update the "year" of the car by using the update() method:
+thiscar = {
+    "brand": "toyota",
+    "model": "camry",
+    "year" : "2010"
+}
+thiscar.update({"year":2042})
+thiscar.update({"brand":"Mercedes Benz"})
+print(thiscar)
