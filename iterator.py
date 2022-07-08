@@ -71,7 +71,7 @@ class mynumbers:
         return selff
 
     def __next__(self):
-        if self.a <=20:
+        if self .a <=20:
             x = self.a
             self.a += 1
         
