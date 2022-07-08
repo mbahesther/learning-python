@@ -14,7 +14,7 @@ x = func(1, 4)
 
 print(x)
 
-a = lambda a, b: a + b
+x = lambda a, b: a + b
 
 
-print(a(90, 89))
+print(x(40, 89))
