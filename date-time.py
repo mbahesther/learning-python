@@ -1,7 +1,7 @@
 #Import the datetime module and display the current date:
 
 import datetime
-from pkgutil import ImpImporter
+
 
 x = datetime.datetime.now()
 print(x)
@@ -29,7 +29,7 @@ print(x)
 import datetime
 
 #month of the year fullversion
-x =datetime.datetime(2018, 4, 23)
+x = datetime.datetime(2018, 4, 23)
 print(x.strftime("%B"))
 
 #week of the year
