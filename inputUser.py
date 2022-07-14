@@ -26,8 +26,8 @@ print("lets do our mulplication")
 c = input("enter for multiplication")
 d = input("second number for multiplication")
 
-multiply = int(c) * int(d)
-print("the multiplication is " + format(multiply))
+result = int(c) * int(d)
+print("the multiplication is {} * {} = {}" .format(c, d, result))
 
 #division
 print("division division division")
